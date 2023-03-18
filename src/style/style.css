@@ -1,0 +1,60 @@
+.intro {
+    height: auto;
+}
+
+.bnn{
+    height: 600px;
+}
+
+.banner {
+    height: auto;
+    background-size: cover;
+    height: auto;
+    background-color: #407BFF;
+}
+
+.banner img-banner{
+    height: auto;
+    width: auto;
+}
+
+
+.banner-kontent {
+    padding-top: 50px;
+}
+
+.banner-kontent h1 {
+    font-size: 60px;
+}
+
+.banner-kontent p {
+    font-size: 20px;
+}
+
+btn-banner {
+    background-color: rgb(253 224 71);
+}
+
+.content p{
+    color: grey;
+}
+
+.content img{
+    height:300px;
+    width: 320px;
+}
+
+.kategori {
+    background-color: #407BFF;
+}
+
+.testimoni {
+    background-color: #407BFF;
+}
+.faq {
+    background-color: #407BFF;
+}
+
+.card-text {
+    color: grey;
+}

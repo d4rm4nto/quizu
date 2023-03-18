@@ -1,23 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import Banner from './components/Banner';
+import "./style/style.css"
+import Content from './components/Content';
+import Kategori from './components/Kategori';
+import Footer from './components/Footer';
+import Testimoni from './components/Testimoni';
+import Faq from './components/Faq';
+import Pengaduan from './components/Pengaduan';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='landingpage'>
+      {/* intro */}
+      <div className="banner z-40">
+        <NavBar />
+        <Banner />
+      </div>
+      {/* end intro */}
+
+      {/* content landing page */}
+      <div className="">
+        <Content />
+      </div>
+      {/* end content landing page */}
+
+      {/* kategori section */}
+      <div className="kategori">
+        <Kategori />
+      </div>
+      {/* end kategori section */}
+
+      {/* testimoni section */}
+      <div className="testimoni">
+        <Testimoni />
+      </div>
+      {/* end testimoni */}
+
+      {/* accordion section */}
+      <div className="faq">
+        <Faq />
+      </div>
+      {/* end accordion */}
+
+      {/* pengaduan section */}
+      <Pengaduan />
+      {/* end pengaduan */}
+
+      <div className="footer bg-blue-700">
+        <Footer />
+      </div>
     </div>
   );
 }
