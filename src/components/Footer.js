@@ -19,6 +19,7 @@ const Footer = () => {
                     </Col>
                     <Col sm md={4}>
                         <h5>Get Started</h5>
+                        <h6>Mulai</h6>
                     </Col>
                     <Col sm md={4}>
                         <h5>Kontak Kami</h5>
