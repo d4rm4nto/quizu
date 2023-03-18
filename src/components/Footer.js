@@ -14,12 +14,13 @@ const Footer = () => {
                             <img className='w-20 h-30 text-gray-300' src={LogoQuizzU} alt="logo-quiz" />
                         </div>
                         <div className='mt-5'>
-                            Quizu adalah sebuah aplikasi kuis online yang dibuat untuk membantu siswa belajar secara interaktif.
+                        QuizU adalah sebuah platform pembelajaran interaktif untuk siswa SMA/SMK yang menyediakan bank soal, latihan, dan fitur pelacakan kemajuan. Dengan QuizU, siswa dapat belajar dengan cara yang lebih menyenangkan dan efektif.
                         </div>
                     </Col>
                     <Col sm md={4}>
                         <h5>Get Started</h5>
                         <h6>Mulai</h6>
+                        <h6>Menuju Quiz</h6>
                     </Col>
                     <Col sm md={4}>
                         <h5>Kontak Kami</h5>
