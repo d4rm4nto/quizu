@@ -13,7 +13,7 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="navbar-nav" />
                     <Navbar.Collapse id="navbar-nav">
                         <Nav className="">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="/about">Home</Nav.Link>
                             <Nav.Link href="#features">Quiz</Nav.Link>
                             <Nav.Link href="#features">Tentang</Nav.Link>
                             <Nav.Link href="#pricing">Masuk</Nav.Link>

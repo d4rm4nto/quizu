@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import banner from '../assets/img/banner.png'
-
 
 
 
@@ -19,7 +19,9 @@ const Banner = () => {
                             <p>Siap menguji pengetahuanmu dalam IPA dan IPS dengan metode pembelajaran baru? Ayo ikuti kuis kami sekarang juga!</p>
                         </div>
                         <div className='btn-banner mt-5'>
-                            <Button>Daftar Sekarang</Button>
+                            <Button>
+                                <Link className="text-white text-decoration-none" to="/pendaftaran">Daftar Sekarang</Link>
+                            </Button>
                         </div>
                     </div>
                 </Col>
