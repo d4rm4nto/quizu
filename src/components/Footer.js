@@ -21,7 +21,6 @@ const Footer = () => {
                         <h5>Get Started</h5>
                         <h6>Mulai</h6>
                         <h6>Menuju Quiz</h6>
-                        <h6>Jangkrik</h6>
                     </Col>
                     <Col sm md={4}>
                         <h5>Kontak Kami</h5>
