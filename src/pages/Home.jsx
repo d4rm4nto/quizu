@@ -12,44 +12,46 @@ import "../style/style.css"
 export const Home = () => {
   return (
     <div className='landingpage'>
-       {/* intro */}
-       <div className="banner z-40">
-         <NavBar />
-         <Banner />
-       </div>
-       {/* end intro */}
+      {/* intro */}
+      <div className="banner z-40">
+        <NavBar />
+        <Banner />
+      </div>
+      {/* end intro */}
 
-       {/* content landing page */}
-       <div className="">
-         <Content />
-       </div>
-       {/* end content landing page */}
+      {/* content landing page */}
+      <div className="bg-gray-200">
+        <Content />
+      </div>
+      {/* end content landing page */}
 
-       {/* kategori section */}
-       <div className="kategori">
-         <Kategori />
-       </div>
-       {/* end kategori section */}
+      {/* kategori section */}
+      <div className="kategori">
+        <Kategori />
+      </div>
+      {/* end kategori section */}
 
-       {/* testimoni section */}
-       <div className="testimoni">
-         <Testimoni />
-       </div>
-       {/* end testimoni */}
+      {/* testimoni section */}
+      <div className="testimoni">
+        <Testimoni />
+      </div>
+      {/* end testimoni */}
 
-       {/* accordion section */}
-       <div className="faq">
-         <Faq />
-       </div>
-       {/* end accordion */}
+      {/* accordion section */}
+      <div className="faq">
+        <Faq />
+      </div>
+      {/* end accordion */}
 
-       {/* pengaduan section */}
-       <Pengaduan />
-       {/* end pengaduan */}
+      {/* pengaduan section */}
+      <div className="bg-gray-200">
+        <Pengaduan />
+      </div>
+      {/* end pengaduan */}
 
-       <div className="footer bg-blue-700">
-         <Footer />
-       </div>
-     </div>
+      <div className="footer bg-blue-700">
+        <Footer />
+      </div>
+    </div>
   )
 }
