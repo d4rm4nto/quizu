@@ -6,7 +6,7 @@ import Logo from '../assets/img/Logo.png';
 
 const NavBar = () => {
     return (
-        <div className='z-100'>
+        <div className='z-[100]'>
             <Navbar className='backdrop-blur-md bg-white/30 text-center' variant="dark" expand="md">
                 <Container>
                     <Navbar.Brand href="#home"><img className='w-20 h-25' src={Logo} alt="" /></Navbar.Brand>
