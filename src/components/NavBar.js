@@ -16,7 +16,7 @@ const NavBar = () => {
                             <Nav.Link href="/about">Home</Nav.Link>
                             <Nav.Link href="#features">Quiz</Nav.Link>
                             <Nav.Link href="#features">Tentang</Nav.Link>
-                            <Nav.Link href="#pricing">Masuk</Nav.Link>
+                            <Nav.Link href="/Login">Masuk</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
