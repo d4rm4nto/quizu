@@ -44,17 +44,24 @@ btn-banner {
     width: 320px;
 }
 
-.kategori {
-    background-color: #407BFF;
-}
-
-.testimoni {
-    background-color: #407BFF;
-}
-.faq {
-    background-color: #407BFF;
-}
-
 .card-text {
     color: grey;
+}
+
+/* styling login page */
+
+.form-login{
+    border: 2px solid #6f7175;
+}
+
+.login-section {
+    background-image: url("../assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-pendaftaran {
+    background-image: url("../assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

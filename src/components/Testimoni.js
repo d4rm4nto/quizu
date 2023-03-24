@@ -12,7 +12,7 @@ const Testimoni = () => {
         <div>
             <Container>
                 <div data-aos="fade-right">
-                    <h2 className='mb-10'>Apa yang mereka katakan mengenai Quizu ?</h2>
+                    <h2 className='pb-20 pt-20 text-center'>Apa yang mereka katakan mengenai Quizu ?</h2>
                     <div data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                         data-aos-duration="2000">

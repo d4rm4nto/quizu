@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Button, Accordion } from 'react-bootstrap'
+import { Container, Accordion } from 'react-bootstrap'
 
 const Faq = () => {
     return (
@@ -7,7 +7,7 @@ const Faq = () => {
             <Container classname=''>
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
-                    <h2 className='mb-10'>Apa Yang sering ditanyakan ?</h2>
+                    <h2 className='pb-20 pt-20 text-center'>Apa Yang sering ditanyakan ?</h2>
                 </div>
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">

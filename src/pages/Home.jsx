@@ -32,13 +32,13 @@ export const Home = () => {
       {/* end kategori section */}
 
       {/* testimoni section */}
-      <div className="testimoni">
+      <div className="testimoni bg-gray-200">
         <Testimoni />
       </div>
       {/* end testimoni */}
 
       {/* accordion section */}
-      <div className="faq">
+      <div className="faq bg-gray-200">
         <Faq />
       </div>
       {/* end accordion */}

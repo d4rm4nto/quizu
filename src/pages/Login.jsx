@@ -1,19 +1,13 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Form_Login } from '../components/Form_Login'
+import "../style/style.css"
 
 export const Login = () => {
   return (
-    <div>
-      <Container>
-        <Row>
-          <Col sm md={6}>
-            kolom gambar
-          </Col>
-          <Col sm md={6}>
-            kolom form login
-          </Col>
-        </Row>
-      </Container>
+    <div className="login-section backdrop-opacity-10 backdrop-invert bg-white/30">
+      <div>
+        <Form_Login />
+      </div>
     </div>
   )
 }
