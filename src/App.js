@@ -1,11 +1,10 @@
-import "./style/style.css"
+import "./style/style.css";
 
 import { Routes, Route, Link } from "react-router-dom";
-import { Home } from './pages/Home';
-import { Pendaftaran } from './pages/Pendaftaran';
-import { Login } from './pages/Login';
-
-
+import { Home } from "./pages/Home";
+import { Pendaftaran } from "./pages/Pendaftaran";
+import { Login } from "./pages/Login";
+import Quiz from "./pages/Quiz";
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/pendaftaran" element={<Pendaftaran />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/quiz" element={<Quiz />} />
       </Routes>
     </div>
   );

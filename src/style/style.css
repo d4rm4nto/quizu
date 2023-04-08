@@ -26,6 +26,12 @@
   font-size: 60px;
 }
 
+@media (max-width: 600px) {
+  .banner-kontent h1 {
+    font-size: 3rem;
+  }
+}
+
 .banner-kontent p {
   font-size: 20px;
 }
@@ -60,7 +66,7 @@ btn-banner {
 }
 
 .container-pendaftaran {
-  background-image: url("../assets/img/bg.jpg");
+  background-image: url("../assets/img/pendaftaran_img.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

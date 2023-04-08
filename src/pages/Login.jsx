@@ -7,7 +7,7 @@ import LogoGoogle from "../assets/img/LogoGoogle.svg";
 
 export const Login = () => {
   return (
-    <div className="login-section backdrop-opacity-10 backdrop-invert bg-white/30">
+    <div className="login-section">
       <Row>
         <Col sm md={5}>
           <div className="flex top-10">
@@ -15,10 +15,10 @@ export const Login = () => {
           </div>
         </Col>
         <Col sm md={7}>
-          <div className="container-login bg-white d-flex justify-cente align-items-sm-center h-screen rounded-start-4">
-            <div className="container my-5">
+          <div className="container-login bg-white d-flex justify-center align-items-center w-100 h-screen rounded-start-4">
+            <div className="container">
               <div className="row justify-content-center">
-                <div className="col-md-7  ">
+                <div className="col-md-7">
                   <div className="card-header text-balck">
                     <h4 className="card-title fw-bold mb-5 text-center">
                       Login QuizU
