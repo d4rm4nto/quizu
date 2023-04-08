@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Pendaftaran = () => {
   return (
-    <div className="container-pendaftaran bg-primary d-flex justify-cente align-items-sm-center h-screen">
+    <div className="container-pendaftaran bg-transparent d-flex justify-cente align-items-sm-center h-screen">
       <div class="container my-5">
         <div class="row justify-content-center">
           <div class="col-md-6">
@@ -34,7 +34,7 @@ export const Pendaftaran = () => {
                 </form>
               </div>
               <div className="text-white text-center">
-                <hr /> Atau Masuk Menggunakan <hr />
+                <hr /> Atau Daftar Menggunakan <hr />
               </div>
               <div className='text-center mt-3' style={{ color: "#4285F4" }}>
                 <FontAwesomeIcon icon={faGoogle} />

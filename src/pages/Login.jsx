@@ -4,7 +4,7 @@ import "../style/style.css"
 
 export const Login = () => {
   return (
-    <div className="login-section backdrop-opacity-10 backdrop-invert bg-white/30">
+    <div className="login-section">
       <div>
         <Form_Login />
       </div>
