@@ -1,63 +1,68 @@
 .intro {
-    height: auto;
+  height: auto;
 }
 
-.bnn{
-    height: 600px;
+.bnn {
+  height: 600px;
 }
 
 .banner {
-    height: auto;
-    background-size: cover;
-    height: auto;
-    background-color: #407BFF;
+  height: auto;
+  background-size: cover;
+  height: auto;
+  background-color: #407bff;
 }
 
-.banner img-banner{
-    height: auto;
-    width: auto;
+.banner img-banner {
+  height: auto;
+  width: auto;
 }
-
 
 .banner-kontent {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .banner-kontent h1 {
-    font-size: 60px;
+  font-size: 60px;
+}
+
+@media (max-width: 600px) {
+  .banner-kontent h1 {
+    font-size: 3rem;
+  }
 }
 
 .banner-kontent p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 btn-banner {
-    background-color: rgb(253 224 71);
+  background-color: rgb(253 224 71);
 }
 
-.content p{
-    color: grey;
+.content p {
+  color: grey;
 }
 
-.content img{
-    height:300px;
-    width: 320px;
+.content img {
+  height: 300px;
+  width: 320px;
 }
 
 .card-text {
-    color: grey;
+  color: grey;
 }
 
 /* styling login page */
 
-.form-login{
-    border: 2px solid #6f7175;
+.form-login {
+  border: 2px solid #6f7175;
 }
 
 .login-section {
-    background-image: url("../assets/img/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../assets/img/login_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-pendaftaran {
