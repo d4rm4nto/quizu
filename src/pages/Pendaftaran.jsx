@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/img/Logo.png";
 import LogoGoogle from "../assets/img/LogoGoogle.svg";
 
-export const Pendaftaran = () => {
+const Pendaftaran = () => {
   return (
     <div className="container-pendaftaran backdrop-opacity-10 backdrop-invert bg-white/30">
       <Row>
@@ -117,3 +117,5 @@ export const Pendaftaran = () => {
     </div>
   );
 };
+
+export default Pendaftaran;

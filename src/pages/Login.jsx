@@ -103,6 +103,9 @@ export const Login = () => {
           </div>
         </Col>
       </Row>
+      <div>
+        <Form_Login />
+      </div>
     </div>
   );
 };

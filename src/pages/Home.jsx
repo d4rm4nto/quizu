@@ -3,7 +3,7 @@ import Banner from '../components/Banner'
 import Content from '../components/Content'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
-import Kategori from '../components/Kategori'
+import Kategori from '../components/DaftarQuiz'
 import NavBar from '../components/NavBar'
 import Pengaduan from '../components/Pengaduan'
 import Testimoni from '../components/Testimoni'
@@ -24,12 +24,6 @@ export const Home = () => {
         <Content />
       </div>
       {/* end content landing page */}
-
-      {/* kategori section */}
-      <div className="kategori">
-        <Kategori />
-      </div>
-      {/* end kategori section */}
 
       {/* testimoni section */}
       <div className="testimoni bg-gray-200">
