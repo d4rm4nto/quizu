@@ -8,7 +8,7 @@ const BannerQuiz = () => {
                 <div className='banner-quiz p-5 text-white'>
                     <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore vel eligendi corporis distinctio commodi officia placeat, fuga, impedit ipsa dolores provident molestias similique omnis quia dolor? Quod dolore unde quos nihil rerum porro labore aperiam.</h4>
                 </div>
-                <div className='d-flex pt-3'>
+                <div className='d-flex mt-3 justify-between'>
                     <div>
                         <h3>Semua Kategori</h3>
                     </div>

@@ -49,7 +49,7 @@ const Content = () => {
                 <h1>Kurikulum Terupdate</h1>
               </div>
               <p>
-                Kami di sini memiliki kemampuan untuk menyesuaikan kurikulum
+                Menyesuaikan kurikulum
                 pembelajaran untuk setiap siswa secara individu agar mereka
                 dapat mengikuti materi dengan lebih mudah dan efektif. Dalam
                 proses ini, kami mempertimbangkan berbagai faktor seperti minat
