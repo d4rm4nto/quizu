@@ -1,57 +1,28 @@
-import NavBar from './components/NavBar';
-import Banner from './components/Banner';
-import "./style/style.css"
-import Content from './components/Content';
-import Kategori from './components/Kategori';
-import Footer from './components/Footer';
-import Testimoni from './components/Testimoni';
-import Faq from './components/Faq';
-import Pengaduan from './components/Pengaduan';
+import "./style/style.css";
+
+import { Routes, Route, Link } from "react-router-dom";
+import { Home } from './pages/Home';
+import { Pendaftaran } from './pages/Pendaftaran';
+import { Login } from './pages/Login';
+import { Quiz } from "./pages/Quiz";
+import { MateriQuiz } from "./pages/MateriQuiz";
+import SoalQuiz from "./pages/SoalQuiz";
+
 
 
 
 
 function App() {
   return (
-    <div className='landingpage'>
-      {/* intro */}
-      <div className="banner z-40">
-        <NavBar />
-        <Banner />
-      </div>
-      {/* end intro */}
-
-      {/* content landing page */}
-      <div className="">
-        <Content />
-      </div>
-      {/* end content landing page */}
-
-      {/* kategori section */}
-      <div className="kategori">
-        <Kategori />
-      </div>
-      {/* end kategori section */}
-
-      {/* testimoni section */}
-      <div className="testimoni">
-        <Testimoni />
-      </div>
-      {/* end testimoni */}
-
-      {/* accordion section */}
-      <div className="faq">
-        <Faq />
-      </div>
-      {/* end accordion */}
-
-      {/* pengaduan section */}
-      <Pengaduan />
-      {/* end pengaduan */}
-
-      <div className="footer bg-blue-700">
-        <Footer />
-      </div>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/pendaftaran" element={<Pendaftaran />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/materiquiz" element={<MateriQuiz />} />
+        <Route path="/tomblaksibwh" element={<SoalQuiz />} />
+      </Routes>
     </div>
   );
 }
