@@ -66,9 +66,15 @@ btn-banner {
 }
 
 .container-pendaftaran {
+<<<<<<<<< Temporary merge branch 1
   background-image: url("../assets/img/pendaftaran_img.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+=========
+    background-image: url("../assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-quiz {
@@ -78,5 +84,6 @@ btn-banner {
 }
 
 .container-bannerquiz {
-  height: auto;
-}
+    height: auto;
+} 
+>>>>>>>>> Temporary merge branch 2

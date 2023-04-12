@@ -103,9 +103,11 @@ export const Login = () => {
           </div>
         </Col>
       </Row>
+      =========
       <div>
         <Form_Login />
       </div>
+      >>>>>>>>> Temporary merge branch 2
     </div>
   );
 };

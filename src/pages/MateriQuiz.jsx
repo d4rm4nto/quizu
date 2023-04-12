@@ -1,16 +1,18 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
 import Materi from '../components/Materi'
+import TombolActiontop from '../components/TombolActiontop'
+import TombolActionbtm from '../components/TombolActionbtm'
+
 
 
 
 
 export const MateriQuiz = () => {
     return (
-        <div className="bg-primary">
+        <div className="bg-slate-300">
             {/* navbar section */}
             <div>
-                <NavBar />
+                <TombolActiontop />
             </div>
             {/* end navbar section */}
 
@@ -19,6 +21,10 @@ export const MateriQuiz = () => {
                 <Materi />
             </div>
             {/* end materi section */}
+
+            {/* tombol section */}
+            <TombolActionbtm />
+            {/* end tombol section */}
 
         </div>
 

@@ -1,12 +1,22 @@
 import "./style/style.css";
 
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import { Routes, Route, Link } from "react-router-dom";
+<<<<<<<<< Temporary merge branch 1
+import { Home } from "./pages/Home";
+import { Pendaftaran } from "./pages/Pendaftaran";
 import { Login } from "./pages/Login";
-import Pendaftaran from "./pages/Pendaftaran";
 import Quiz from "./pages/Quiz";
+=========
+import { Home } from './pages/Home';
+import { Pendaftaran } from './pages/Pendaftaran';
+import { Login } from './pages/Login';
+import { Aboute } from "./pages/Aboute";
+import { Quiz } from "./pages/Quiz";
 import { MateriQuiz } from "./pages/MateriQuiz";
-import NotFound from "./pages/NotFound";
+
+
+
+>>>>>>>>> Temporary merge branch 2
 
 function App() {
   return (
@@ -17,7 +27,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/materiquiz" element={<MateriQuiz />} />
-        <Route path="/*" element={<NotFound />} />
+>>>>>>>>> Temporary merge branch 2
       </Routes>
     </div>
   );

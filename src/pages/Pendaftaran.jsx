@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react';
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../assets/img/Logo.png";
 import LogoGoogle from "../assets/img/LogoGoogle.svg";
 
+
 const Pendaftaran = () => {
   return (
+<<<<<<<<< Temporary merge branch 1
     <div className="container-pendaftaran backdrop-opacity-10 backdrop-invert bg-white/30">
       <Row>
         <Col sm md={5}>
@@ -22,6 +24,21 @@ const Pendaftaran = () => {
                     <h4 className="card-title fw-bold mb-5 text-center">
                       Pendaftaran QuizU
                     </h4>
+=========
+    <div className="container-pendaftaran bg-transparent d-flex justify-cente align-items-sm-center h-screen">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card border border-slate-300 bg-transparent shadow-lg">
+              <div class="card-header text-white">
+                <h4 class="card-title mb-0 text-center">Registrasi</h4>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="mb-3 text-white">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="username" placeholder="Masukan Nama Lenhkap" required />
+>>>>>>>>> Temporary merge branch 2
                   </div>
                   <div className="card-body">
                     <form>
@@ -108,6 +125,7 @@ const Pendaftaran = () => {
                       </Link>
                     </p>
                   </div>
+<<<<<<<<< Temporary merge branch 1
                 </div>
               </div>
             </div>
@@ -117,5 +135,3 @@ const Pendaftaran = () => {
     </div>
   );
 };
-
-export default Pendaftaran;
